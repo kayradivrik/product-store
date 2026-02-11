@@ -72,6 +72,7 @@ npm run dev
 <hr>
 
 <p align="center">
-👨‍💻 Developed by Your Name
+👨‍💻 Developed by Kayradivrik
 </p>
+
 

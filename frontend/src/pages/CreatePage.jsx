@@ -15,6 +15,7 @@ import {
   InputLeftElement,
   useToast,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import { FiDollarSign, FiImage, FiTag } from "react-icons/fi";
 import { useProductStore } from "../store/product";
 
@@ -56,6 +57,19 @@ const CreatePage = () => {
   return (
     <Container maxW="lg" py={16}>
       <VStack spacing={10}>
+
+        {/* 🔙 Back Button */}
+        <Box w="full">
+          <Button
+            as={Link}
+            to="/"
+            variant="ghost"
+            size="sm"
+          >
+            ← Back to Home
+          </Button>
+        </Box>
+
         {/* 🔥 Header */}
         <VStack spacing={3}>
           <Heading size="xl" letterSpacing="-0.5px">

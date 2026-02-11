@@ -1,18 +1,18 @@
 <h1 align="center">🛒 Product Store</h1>
 
 <p align="center">
-Modern bir <strong>Full Stack Product Management</strong> uygulaması.
+A modern <strong>Full Stack Product Management</strong> application.
 </p>
 
 <hr>
 
-<h2>🚀 Teknolojiler</h2>
+<h2>🚀 Technologies</h2>
 
 <h3>Frontend</h3>
 <ul>
 <li>React</li>
 <li>Chakra UI</li>
-<li>Zustand</li>
+<li>Zustand (State Management)</li>
 <li>React Router</li>
 </ul>
 
@@ -26,32 +26,47 @@ Modern bir <strong>Full Stack Product Management</strong> uygulaması.
 
 <hr>
 
-<h2>📦 Özellikler</h2>
+<h2>📦 Features</h2>
 <ul>
-<li>Ürün ekleme</li>
-<li>Ürün listeleme</li>
-<li>Ürün güncelleme</li>
-<li>Ürün silme</li>
-<li>Responsive tasarım</li>
+<li>Create products</li>
+<li>View all products</li>
+<li>Update products</li>
+<li>Delete products</li>
+<li>Responsive modern UI</li>
+<li>Global state management with Zustand</li>
 </ul>
 
 <hr>
 
-<h2>🛠 Kurulum</h2>
+<h2>🛠 Installation</h2>
+
+<h3>1️⃣ Clone the repository</h3>
 
 <pre>
-git clone https://github.com/kullaniciadi/product-store.git
+git clone https://github.com/your-username/product-store.git
 cd product-store
 </pre>
 
-<h3>Backend</h3>
+<h3>2️⃣ Backend Setup</h3>
+
 <pre>
 cd backend
 npm install
+</pre>
+
+<p>Create a <strong>.env</strong> file inside the backend folder:</p>
+
+<pre>
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+</pre>
+
+<pre>
 npm run dev
 </pre>
 
-<h3>Frontend</h3>
+<h3>3️⃣ Frontend Setup</h3>
+
 <pre>
 cd frontend
 npm install
@@ -63,16 +78,22 @@ npm run dev
 <h2>🌐 API Endpoints</h2>
 
 <ul>
-<li><b>GET</b> /api/products</li>
-<li><b>POST</b> /api/products</li>
-<li><b>PUT</b> /api/products/:id</li>
-<li><b>DELETE</b> /api/products/:id</li>
+<li><b>GET</b> /api/products – Get all products</li>
+<li><b>POST</b> /api/products – Create a new product</li>
+<li><b>PUT</b> /api/products/:id – Update a product</li>
+<li><b>DELETE</b> /api/products/:id – Delete a product</li>
+</ul>
+
+<hr>
+
+<h2>🔐 Security</h2>
+<ul>
+<li>Make sure your <code>.env</code> file is included in <code>.gitignore</code>.</li>
+<li>Never expose your MongoDB credentials in a public repository.</li>
 </ul>
 
 <hr>
 
 <p align="center">
-👨‍💻 Developed by Kayradivrik
+👨‍💻 Developed by Kayra Divrik
 </p>
-
-

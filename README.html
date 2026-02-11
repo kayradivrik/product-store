@@ -1,66 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Product Store</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    background-color: #0f172a;
-    color: #e2e8f0;
-    margin: 0;
-    padding: 40px;
-    line-height: 1.6;
-}
-h1, h2, h3 {
-    color: #38bdf8;
-}
-code {
-    background: #1e293b;
-    padding: 5px 8px;
-    border-radius: 6px;
-    display: block;
-    margin: 10px 0;
-}
-.section {
-    margin-bottom: 40px;
-}
-.badge {
-    display: inline-block;
-    padding: 6px 12px;
-    background: #1e293b;
-    border-radius: 20px;
-    margin: 5px 5px 5px 0;
-}
-.footer {
-    margin-top: 60px;
-    opacity: 0.6;
-}
-</style>
-</head>
-<body>
+<h1 align="center">🛒 Product Store</h1>
 
-<h1>🛒 Product Store</h1>
-<p>Modern bir <strong>Full Stack Product Management</strong> uygulaması.</p>
+<p align="center">
+Modern bir <strong>Full Stack Product Management</strong> uygulaması.
+</p>
 
-<div class="section">
+<hr>
+
 <h2>🚀 Teknolojiler</h2>
 
 <h3>Frontend</h3>
-<span class="badge">React</span>
-<span class="badge">Chakra UI</span>
-<span class="badge">Zustand</span>
-<span class="badge">React Router</span>
+<ul>
+<li>React</li>
+<li>Chakra UI</li>
+<li>Zustand</li>
+<li>React Router</li>
+</ul>
 
 <h3>Backend</h3>
-<span class="badge">Node.js</span>
-<span class="badge">Express.js</span>
-<span class="badge">MongoDB</span>
-<span class="badge">Mongoose</span>
-</div>
+<ul>
+<li>Node.js</li>
+<li>Express.js</li>
+<li>MongoDB</li>
+<li>Mongoose</li>
+</ul>
 
-<div class="section">
+<hr>
+
 <h2>📦 Özellikler</h2>
 <ul>
 <li>Ürün ekleme</li>
@@ -68,64 +33,44 @@ code {
 <li>Ürün güncelleme</li>
 <li>Ürün silme</li>
 <li>Responsive tasarım</li>
-<li>Global state yönetimi (Zustand)</li>
 </ul>
-</div>
 
-<div class="section">
+<hr>
+
 <h2>🛠 Kurulum</h2>
 
-<h3>1️⃣ Repository Klonla</h3>
-<code>
-git clone https://github.com/kullaniciadi/product-store.git<br>
+<pre>
+git clone https://github.com/kullaniciadi/product-store.git
 cd product-store
-</code>
+</pre>
 
-<h3>2️⃣ Backend</h3>
-<code>
-cd backend<br>
+<h3>Backend</h3>
+<pre>
+cd backend
 npm install
-</code>
-
-<p><strong>.env dosyası oluştur:</strong></p>
-<code>
-MONGO_URI=your_mongodb_connection_string<br>
-PORT=5000
-</code>
-
-<code>
 npm run dev
-</code>
+</pre>
 
-<h3>3️⃣ Frontend</h3>
-<code>
-cd frontend<br>
-npm install<br>
+<h3>Frontend</h3>
+<pre>
+cd frontend
+npm install
 npm run dev
-</code>
-</div>
+</pre>
 
-<div class="section">
+<hr>
+
 <h2>🌐 API Endpoints</h2>
+
 <ul>
-<li><strong>GET</strong> /api/products</li>
-<li><strong>POST</strong> /api/products</li>
-<li><strong>PUT</strong> /api/products/:id</li>
-<li><strong>DELETE</strong> /api/products/:id</li>
+<li><b>GET</b> /api/products</li>
+<li><b>POST</b> /api/products</li>
+<li><b>PUT</b> /api/products/:id</li>
+<li><b>DELETE</b> /api/products/:id</li>
 </ul>
-</div>
 
-<div class="section">
-<h2>🔐 Güvenlik</h2>
-<ul>
-<li>.env dosyası .gitignore içinde olmalıdır.</li>
-<li>MongoDB bağlantı bilgileri public repo’ya yüklenmemelidir.</li>
-</ul>
-</div>
+<hr>
 
-<div class="footer">
-<p>👨‍💻 Developed by Your Name</p>
-</div>
-
-</body>
-</html>
+<p align="center">
+👨‍💻 Developed by Your Name
+</p>
